@@ -39,7 +39,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: white;
+  background: #efefef;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -6112,3 +6112,9 @@ th.hide-for-touch {
   background: url("../assets/img/images/frontpage.png");
   height: 400px;
   width: 100%; }
+
+.white {
+  background: white; }
+
+.m-top {
+  margin-top: -30px; }

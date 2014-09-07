@@ -4,9 +4,24 @@ Template Name: Front/home
 */
 get_header(); ?>
 
-<div class="row">
+<div class="front-slider"></div>
+
+<div class="row white m-top">
     <div class="large-12 columns">
-        <div class="front-slider"></div>
+        <div class="container2">
+
+            <div class="row">
+                <div class="large-4 columns">
+                    <h3>who we are</h3>
+                </div>
+                <div class="large-4 columns">
+                    <h3>our team</h3>
+                </div>
+                <div class="large-4 columns">
+                    <h3>Classes</h3>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
