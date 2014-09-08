@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Front/home
+Template Name: Frontpage
 */
 get_header(); ?>
 
@@ -8,28 +8,25 @@ get_header(); ?>
 
 <div class="row white minus-top">
     <div class="large-12 columns">
-        <div class="container2">
-
-            <div class="row">
-                <div class="large-4 medium-4 columns">
-                    <div class="link-box">
-                        <div class="link-box-title">
-                            <h3>Who we are</h3>
-                        </div>
+        <div class="row">
+            <div class="large-4 medium-4 columns">
+                <div class="link-box">
+                    <div class="link-box-title">
+                        <h3>Who we are</h3>
                     </div>
                 </div>
-                <div class="large-4 medium-4 columns">
-                    <div class="link-box">
-                        <div class="link-box-title">
-                            <h3>Our team</h3>
-                        </div>
+            </div>
+            <div class="large-4 medium-4 columns">
+                <div class="link-box">
+                    <div class="link-box-title">
+                        <h3>Our team</h3>
                     </div>
                 </div>
-                <div class="large-4 medium-4 columns">
-                    <div class="link-box">
-                        <div class="link-box-title">
-                            <h3>Our philosophy</h3>
-                        </div>
+            </div>
+            <div class="large-4 medium-4 columns">
+                <div class="link-box">
+                    <div class="link-box-title">
+                        <h3>Our philosophy</h3>
                     </div>
                 </div>
             </div>
@@ -56,4 +53,3 @@ get_header(); ?>
 </div>
 
 <?php get_footer(); ?>
-
