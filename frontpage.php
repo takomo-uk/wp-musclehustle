@@ -6,27 +6,36 @@ get_header(); ?>
 
 <div class="front-slider"></div>
 
-<div class="row white m-top">
+<div class="row white minus-top">
     <div class="large-12 columns">
         <div class="container2">
 
             <div class="row">
-                <div class="large-4 columns">
-                    <h3>who we are</h3>
+                <div class="large-4 medium-4 columns">
+                    <div class="link-box">
+                        <div class="link-box-title">
+                            <h3>Who we are</h3>
+                        </div>
+                    </div>
                 </div>
-                <div class="large-4 columns">
-                    <h3>our team</h3>
+                <div class="large-4 medium-4 columns">
+                    <div class="link-box">
+                        <div class="link-box-title">
+                            <h3>Our team</h3>
+                        </div>
+                    </div>
                 </div>
-                <div class="large-4 columns">
-                    <h3>Classes</h3>
+                <div class="large-4 medium-4 columns">
+                    <div class="link-box">
+                        <div class="link-box-title">
+                            <h3>Our philosophy</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="row">
-    <div class="small-12 large-12 columns" role="main">
 
     <?php /* Start loop */ ?>
     <?php while (have_posts()) : the_post(); ?>
@@ -44,7 +53,6 @@ get_header(); ?>
         </article>
     <?php endwhile; // End the loop ?>
 
-    </div>
 </div>
 
 <?php get_footer(); ?>
