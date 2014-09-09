@@ -26,7 +26,7 @@ get_header(); ?>
             <div class="large-4 medium-4 columns">
                 <div class="link-box">
                     <div class="link-box-title">
-                        <h3>Our testing</h3>
+                        <h3>this is on testing branch woo</h3>
                     </div>
                 </div>
             </div>
