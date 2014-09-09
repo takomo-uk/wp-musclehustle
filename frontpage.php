@@ -26,7 +26,7 @@ get_header(); ?>
             <div class="large-4 medium-4 columns">
                 <div class="link-box">
                     <div class="link-box-title">
-                        <h1>bugFix 211!</h1>
+                        <h1>anything else</h1>
                     </div>
                 </div>
             </div>
