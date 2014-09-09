@@ -12,7 +12,7 @@ get_header(); ?>
             <div class="large-4 medium-4 columns">
                 <div class="link-box">
                     <div class="link-box-title">
-                        <h3>Who we are DEVELOPTEST</h3>
+                        <h3>about rockets</h3>
                     </div>
                 </div>
             </div>
