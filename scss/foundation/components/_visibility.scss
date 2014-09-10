@@ -406,3 +406,18 @@ $visibility-breakpoint-queries:
   }
 
 }
+
+
+// Making tab-bar and navigation components visible for custom breakpoint
+.show-tab-bar-break {
+  @media #{$medium-up-nav} {
+    display: none;
+  }
+}
+
+.top-bar {
+  display: none;
+  @media #{$medium-up-nav} {
+    display: block;
+  }
+}

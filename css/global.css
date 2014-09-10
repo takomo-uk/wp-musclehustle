@@ -6091,7 +6091,7 @@ blockquote p {
   }
 }
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.063em)/";
+  font-family: "/only screen and (min-width:55.063em)/";
   width: 40.063em;
 }
 
@@ -6474,7 +6474,7 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 55.063em) {
   .top-bar {
     background: white;
     overflow: visible;
@@ -7605,6 +7605,21 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+@media only screen and (min-width: 55.063em) {
+  .show-tab-bar-break {
+    display: none;
+  }
+}
+
+.top-bar {
+  display: none;
+}
+@media only screen and (min-width: 55.063em) {
+  .top-bar {
+    display: block;
+  }
+}
+
 .front-slider {
   background: url("../assets/img/images/frontpage.png");
   height: 400px;

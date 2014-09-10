@@ -298,6 +298,7 @@ $xlarge-range: (90.063em, 120em) !default;
 $xxlarge-range: (120.063em, 99999999em) !default;
 
 
+
 $screen: "only screen" !default;
 
 $landscape: "#{$screen} and (orientation: landscape)" !default;
@@ -317,6 +318,13 @@ $xlarge-only: "#{$screen} and (min-width:#{lower-bound($xlarge-range)}) and (max
 
 $xxlarge-up: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)})" !default;
 $xxlarge-only: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)}) and (max-width:#{upper-bound($xxlarge-range)})" !default;
+
+
+
+// Media Query specifically for navigation bar
+$medium-range-nav: (55.063em, 84em) !default;
+$medium-up-nav: "#{$screen} and (min-width:#{lower-bound($medium-range-nav)})" !default;
+
 
 // Legacy
 $small: $medium-up;
