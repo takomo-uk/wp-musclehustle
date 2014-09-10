@@ -6180,7 +6180,11 @@ meta.foundation-mq-topbar {
 }
 .top-bar .name h1 a {
   font-weight: normal;
+<<<<<<< HEAD
   color: #c12727;
+=======
+  color: black;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
   width: 75%;
   display: block;
   padding: 0 28.33333px;
@@ -6191,7 +6195,11 @@ meta.foundation-mq-topbar {
   top: 0;
 }
 .top-bar .toggle-topbar a {
+<<<<<<< HEAD
   color: #c12727;
+=======
+  color: black;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
   text-transform: uppercase;
   font-size: 0.8125rem;
   font-weight: bold;
@@ -6267,10 +6275,16 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   display: block;
   width: 100%;
+<<<<<<< HEAD
   color: #c12727;
   padding: 12px 0 12px 0;
   padding-left: 15px !important;
   padding-right: 15px !important;
+=======
+  color: black;
+  padding: 12px 0 12px 0;
+  padding-left: 28.33333px;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
@@ -6372,7 +6386,11 @@ meta.foundation-mq-topbar {
 }
 .top-bar-section ul li:hover:not(.has-form) > a {
   background-color: #555555;
+<<<<<<< HEAD
   background: #db4b4b;
+=======
+  background: #272727;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
   color: white;
 }
 .top-bar-section ul li.active > a {
@@ -6449,7 +6467,11 @@ meta.foundation-mq-topbar {
   font-size: 1.125rem;
 }
 .top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
+<<<<<<< HEAD
   color: #c12727;
+=======
+  color: black;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
   display: block;
 }
 .top-bar-section .dropdown li.title h5 a:hover, .top-bar-section .dropdown li.parent-link a:hover {
@@ -6529,7 +6551,11 @@ meta.foundation-mq-topbar {
   }
   .top-bar-section li.hover > a:not(.button) {
     background-color: #555555;
+<<<<<<< HEAD
     background: #db4b4b;
+=======
+    background: #272727;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
     color: white;
   }
   .top-bar-section li:not(.has-form) a:not(.button) {
@@ -6539,7 +6565,11 @@ meta.foundation-mq-topbar {
   }
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #555555;
+<<<<<<< HEAD
     background: #db4b4b;
+=======
+    background: #272727;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
   }
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 28.33333px;
@@ -6622,7 +6652,11 @@ meta.foundation-mq-topbar {
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
     color: white;
     background-color: #555555;
+<<<<<<< HEAD
     background: #db4b4b;
+=======
+    background: #272727;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
   }
   .top-bar-section .dropdown li label {
     white-space: nowrap;
@@ -6661,8 +6695,7 @@ meta.foundation-mq-topbar {
   }
 
   .no-js .top-bar-section ul li:hover > a {
-    background-color: #555555;
-    background: #db4b4b;
+    background: #272727;
     color: white;
   }
   .no-js .top-bar-section ul li:active > a {
@@ -6688,10 +6721,13 @@ meta.foundation-mq-topbar {
     position: absolute !important;
   }
 }
+<<<<<<< HEAD
 .title {
   background: url(../assets/img/images/95x67-logo.png) center center no-repeat;
 }
 
+=======
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
 .off-canvas-wrap {
   -webkit-backface-visibility: hidden;
   position: relative;
@@ -6725,6 +6761,7 @@ meta.foundation-mq-topbar {
   -webkit-backface-visibility: hidden;
   background: white;
   color: white;
+<<<<<<< HEAD
   height: 3.4375rem;
   line-height: 3.4375rem;
   position: relative;
@@ -6733,6 +6770,16 @@ meta.foundation-mq-topbar {
   color: black;
   font-weight: bold;
   line-height: 3.4375rem;
+=======
+  height: 2.8125rem;
+  line-height: 2.8125rem;
+  position: relative;
+}
+.tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
+  color: white;
+  font-weight: bold;
+  line-height: 2.8125rem;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
   margin: 0;
 }
 .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4 {
@@ -6744,7 +6791,11 @@ meta.foundation-mq-topbar {
   height: 3.4375rem;
   position: absolute;
   top: 0;
+<<<<<<< HEAD
   border-right: solid 1px gray;
+=======
+  border-right: solid 1px #1a1a1a;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
   left: 0;
 }
 
@@ -6753,7 +6804,11 @@ meta.foundation-mq-topbar {
   height: 3.4375rem;
   position: absolute;
   top: 0;
+<<<<<<< HEAD
   border-left: solid 1px gray;
+=======
+  border-left: solid 1px #1a1a1a;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
   right: 0;
 }
 
@@ -6761,7 +6816,11 @@ meta.foundation-mq-topbar {
   padding: 0 0.625rem;
   position: absolute;
   text-align: center;
+<<<<<<< HEAD
   height: 3.4375rem;
+=======
+  height: 2.8125rem;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
   top: 0;
 }
 @media only screen and (min-width: 40.063em) {
@@ -6771,6 +6830,7 @@ meta.foundation-mq-topbar {
 }
 .tab-bar-section.left {
   left: 0;
+<<<<<<< HEAD
   right: 3.4375rem;
 }
 .tab-bar-section.right {
@@ -6780,6 +6840,17 @@ meta.foundation-mq-topbar {
 .tab-bar-section.middle {
   left: 3.4375rem;
   right: 3.4375rem;
+=======
+  right: 2.8125rem;
+}
+.tab-bar-section.right {
+  left: 2.8125rem;
+  right: 0;
+}
+.tab-bar-section.middle {
+  left: 2.8125rem;
+  right: 2.8125rem;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
 }
 
 .tab-bar .menu-icon {
@@ -6799,12 +6870,21 @@ meta.foundation-mq-topbar {
   height: 0;
   top: 50%;
   margin-top: -0.5rem;
+<<<<<<< HEAD
   left: 1.21875rem;
   box-shadow: 0 0px 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;
   width: 1rem;
 }
 .tab-bar .menu-icon span:hover:after {
   box-shadow: 0 0px 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;
+=======
+  left: 0.90625rem;
+  box-shadow: 0 0px 0 1px white, 0 7px 0 1px white, 0 14px 0 1px white;
+  width: 1rem;
+}
+.tab-bar .menu-icon span:hover:after {
+  box-shadow: 0 0px 0 1px #b3b3b3, 0 7px 0 1px #b3b3b3, 0 14px 0 1px #b3b3b3;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
 }
 
 .left-off-canvas-menu {
@@ -6884,7 +6964,11 @@ ul.off-canvas-list li a {
   transition: background 300ms ease;
 }
 ul.off-canvas-list li a:hover {
+<<<<<<< HEAD
   background: #d94242;
+=======
+  background: #242424;
+>>>>>>> c1f0aa0a5318480b708b14c1df465a68aac51799
 }
 
 .move-right > .inner-wrap {
