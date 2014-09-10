@@ -6811,7 +6811,7 @@ meta.foundation-mq-topbar {
   position: absolute;
   overflow-x: hidden;
   overflow-y: auto;
-  background: white;
+  background: #333333;
   z-index: 1001;
   box-sizing: content-box;
   transition: transform 500ms ease 0s;
@@ -6837,7 +6837,7 @@ meta.foundation-mq-topbar {
   position: absolute;
   overflow-x: hidden;
   overflow-y: auto;
-  background: white;
+  background: #333333;
   z-index: 1001;
   box-sizing: content-box;
   transition: transform 500ms ease 0s;
@@ -6876,7 +6876,7 @@ ul.off-canvas-list li a {
   display: block;
   padding: 0.66667rem;
   color: rgba(255, 255, 255, 0.7);
-  border-bottom: 1px solid #bfbfbf;
+  border-bottom: 1px solid #262626;
   transition: background 300ms ease;
 }
 ul.off-canvas-list li a:hover {
@@ -7050,7 +7050,7 @@ ul.off-canvas-list li a:hover {
   margin: 0;
   overflow-x: hidden;
   overflow-y: auto;
-  background: white;
+  background: #333333;
   z-index: 1002;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
@@ -7108,7 +7108,7 @@ ul.off-canvas-list li a:hover {
   margin: 0;
   overflow-x: hidden;
   overflow-y: auto;
-  background: white;
+  background: #333333;
   z-index: 1002;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
