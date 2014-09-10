@@ -27,6 +27,7 @@ get_header(); ?>
                 <div class="link-box">
                     <div class="link-box-title">
                         <h3>Our philosophy</h3>
+                        <img src="../assets/img/images/95x67-logo.png">
                     </div>
                 </div>
             </div>
