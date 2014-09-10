@@ -4249,6 +4249,7 @@ kbd {
   width: 100%;
   position: relative;
   background: none;
+  max-height: 600px;
 }
 .orbit-container .orbit-slides-container {
   list-style: none;
@@ -4348,10 +4349,14 @@ kbd {
   background-color: transparent;
   text-indent: -9999px !important;
   z-index: 10;
+  opacity: 0.5;
 }
 .orbit-container .orbit-prev:hover,
 .orbit-container .orbit-next:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  border-radius: 3px;
+  background-color: #d94242;
+  transition: 0.4s ease;
 }
 .orbit-container .orbit-prev > span,
 .orbit-container .orbit-next > span {
@@ -4460,6 +4465,10 @@ kbd {
     display: none;
   }
 }
+.orbit-container img {
+  min-width: 100%;
+}
+
 ul.pagination {
   display: block;
   min-height: 1.5rem;

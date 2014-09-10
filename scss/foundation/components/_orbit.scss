@@ -123,6 +123,10 @@ $orbit-timer-hide-for-small: true !default;
       position: relative;
       background: $orbit-container-bg;
 
+      // Custom styling to slider
+      max-height: 600px;
+      // z-index: -1;
+
       .orbit-slides-container {
         list-style: none;
         margin: 0;
@@ -249,9 +253,13 @@ $orbit-timer-hide-for-small: true !default;
         background-color: $orbit-nav-bg;
         text-indent: -9999px !important;
         z-index: 10;
+        opacity: 0.5;
 
         &:hover {
-          background-color: $orbit-nav-bg-hover;
+          opacity: 1;
+          border-radius: 3px;
+          background-color: lighten($primary-color, 10%);
+          transition: 0.4s ease;
         }
 
         & > span {
@@ -365,4 +373,8 @@ $orbit-timer-hide-for-small: true !default;
       }
     }
   }
+}
+
+.orbit-container img {
+  min-width: 100%;
 }
