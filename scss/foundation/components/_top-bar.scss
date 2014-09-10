@@ -41,7 +41,7 @@ $topbar-link-weight: $font-weight-normal !default;
 $topbar-link-font-size: rem-calc(13) !default;
 $topbar-link-hover-lightness: -10% !default; // Darken by 10%
 $topbar-link-bg: $topbar-bg !default;
-$topbar-link-bg-hover: #272727 !default;
+$topbar-link-bg-hover: lighten($primary-color, 12%) !default;
 $topbar-link-bg-color-hover: $charcoal !default;
 $topbar-link-bg-active: $primary-color !default;
 $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%) !default;
@@ -305,7 +305,11 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
           width: 100%;
           color: $topbar-link-color;
           padding: 12px 0 12px 0;
-          padding-#{$default-float}: $topbar-link-padding;
+
+          // Edit these 2 for left and right padding in navigation links
+          padding-#{$default-float}: 15px !important;
+          padding-#{$opposite-direction}: 15px !important;
+
           font-family: $topbar-link-font-family;
           font-size: $topbar-link-font-size;
           font-weight: $topbar-link-weight;

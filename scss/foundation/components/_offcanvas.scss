@@ -8,8 +8,8 @@
 // Off Canvas Tab Bar Variables
 $include-html-off-canvas-classes: $include-html-classes !default;
 
-$tabbar-bg: $oil !default;
-$tabbar-height: rem-calc(45) !default;
+$tabbar-bg: $white !default;
+$tabbar-height: rem-calc(55) !default;
 $tabbar-icon-width: $tabbar-height !default;
 $tabbar-line-height: $tabbar-height !default;
 $tabbar-color: $white !default;
@@ -21,15 +21,15 @@ $tabbar-right-section-border: $tabbar-left-section-border;
 
 
 // Off Canvas Tab Bar Headers
-$tabbar-header-color: $white !default;
+$tabbar-header-color: #000 !default;
 $tabbar-header-weight: $font-weight-bold !default;
 $tabbar-header-line-height: $tabbar-height !default;
 $tabbar-header-margin: 0 !default;
 
 // Off Canvas Menu Variables
 $off-canvas-width: rem-calc(250) !default;
-$off-canvas-bg: $oil !default;
-$off-canvas-bg-hover: scale-color($tabbar-bg, $lightness: -30%) !default;
+$off-canvas-bg: $white !default;
+$off-canvas-bg-hover: lighten($primary-color, 10%) !default;
 
 // Off Canvas Menu List Variables
 $off-canvas-label-padding: 0.3rem rem-calc(15) !default;
@@ -52,7 +52,7 @@ $off-canvas-back-hover-border-top: 1px solid scale-color($off-canvas-label-bg, $
 $off-canvas-back-hover-border-bottom: none !default;
 
 // Off Canvas Menu Icon Variables
-$tabbar-menu-icon-color: $white !default;
+$tabbar-menu-icon-color: #000 !default;
 $tabbar-menu-icon-hover: scale-color($tabbar-menu-icon-color, $lightness: -30%) !default;
 
 $tabbar-menu-icon-text-indent: rem-calc(35) !default;
