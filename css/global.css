@@ -6180,7 +6180,7 @@ meta.foundation-mq-topbar {
 }
 .top-bar .name h1 a {
   font-weight: normal;
-  color: black;
+  color: #c12727;
   width: 75%;
   display: block;
   padding: 0 28.33333px;
@@ -6191,7 +6191,7 @@ meta.foundation-mq-topbar {
   top: 0;
 }
 .top-bar .toggle-topbar a {
-  color: black;
+  color: #c12727;
   text-transform: uppercase;
   font-size: 0.8125rem;
   font-weight: bold;
@@ -6267,7 +6267,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   display: block;
   width: 100%;
-  color: black;
+  color: #c12727;
   padding: 12px 0 12px 0;
   padding-left: 15px !important;
   padding-right: 15px !important;
@@ -6449,7 +6449,7 @@ meta.foundation-mq-topbar {
   font-size: 1.125rem;
 }
 .top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
-  color: black;
+  color: #c12727;
   display: block;
 }
 .top-bar-section .dropdown li.title h5 a:hover, .top-bar-section .dropdown li.parent-link a:hover {
@@ -6688,6 +6688,10 @@ meta.foundation-mq-topbar {
     position: absolute !important;
   }
 }
+.title {
+  background: url(../assets/img/images/95x67-logo.png) center center no-repeat;
+}
+
 .off-canvas-wrap {
   -webkit-backface-visibility: hidden;
   position: relative;
