@@ -32,5 +32,4 @@ require_once('library/theme-support.php');
 // Theme shortcodes
 require_once('library/shortcodes.php');
 
-
 ?>

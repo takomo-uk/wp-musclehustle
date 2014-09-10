@@ -9,3 +9,23 @@
 .minus-top {
     margin-top: -30px;
 }
+
+.center {
+    text-align: center;
+}
+
+// Typography
+
+.b-title {
+    display: inline-block;
+    margin: 50px 0;
+
+    &:after {
+        content: '';
+        display: block;
+        margin: 0 auto;
+        border-bottom: 8px solid $primary-color;
+        width: 50%;
+        height: 8px;
+    }
+}

@@ -1,5 +1,5 @@
 //
-//
+// Styles for frontpage
 //
 
 .link-box {
@@ -16,6 +16,11 @@
     h3 {
         text-transform: uppercase;
         color: $white;
-
     }
+}
+
+.front-slider {
+    background: url('../assets/img/images/frontpage.png');
+    height: 400px;
+    width: 100%;
 }

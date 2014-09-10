@@ -7629,20 +7629,6 @@ th.hide-for-touch {
   }
 }
 
-.front-slider {
-  background: url("../assets/img/images/frontpage.png");
-  height: 400px;
-  width: 100%;
-}
-
-.white {
-  background: white;
-}
-
-.minus-top {
-  margin-top: -30px;
-}
-
 .link-box {
   margin-top: 17px;
   height: 250px;
@@ -7657,4 +7643,35 @@ th.hide-for-touch {
 .link-box-title h3 {
   text-transform: uppercase;
   color: white;
+}
+
+.front-slider {
+  background: url("../assets/img/images/frontpage.png");
+  height: 400px;
+  width: 100%;
+}
+
+.white {
+  background: white;
+}
+
+.minus-top {
+  margin-top: -30px;
+}
+
+.center {
+  text-align: center;
+}
+
+.b-title {
+  display: inline-block;
+  margin: 50px 0;
+}
+.b-title:after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  border-bottom: 8px solid #c12727;
+  width: 50%;
+  height: 8px;
 }
