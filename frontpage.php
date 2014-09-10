@@ -4,7 +4,37 @@ Template Name: Frontpage
 */
 get_header(); ?>
 
-<div class="front-slider"></div>
+
+<div class="orbit-container">
+    <ul class="example-orbit" data-orbit 
+                data-options="
+                timer_speed: 6000;
+                timer: false;
+                pause_on_hover:false;
+                slide_number: false;
+                animation_speed:500;
+                navigation_arrows:true;
+                bullets:false;">
+        <li>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/slider-pic-1.jpg" alt="slide 1" />
+            <!-- <div class="orbit-caption">
+              Caption One.
+            </div> -->
+        </li>
+        <li class="active">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/slider-pic-2.jpg" alt="slide 2" />
+            <!-- <div class="orbit-caption">
+              Caption Two.
+            </div> -->
+        </li>
+        <li>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/slider-pic-3.jpg" alt="slide 3" />
+            <!-- <div class="orbit-caption">
+              Caption Three.
+            </div> -->
+        </li>
+    </ul>
+</div>
 
 <div class="row white minus-top">
     <div class="large-12 columns">
