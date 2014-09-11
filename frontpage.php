@@ -96,7 +96,7 @@ get_header(); ?>
 
 <div class="gray-bg">
     <div class="row space-top">
-        <div class="large-12 columns inner-spacing info-box">
+        <div class="large-12 columns outer-spacing info-box">
             <h2 class="text-center">TRAIN HARD, TRAIN FUN</h2>
             <hr class="info-hr">
             <p>Whether you're a beginner or a seasoned athlete, our sessions are designed to be effective and fun at the same time. Regardless of whether you've ever set foot in a gym before or not, we have developed programs and sessions to suit all types of different customers.﻿</p> 
