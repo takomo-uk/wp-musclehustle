@@ -36,27 +36,36 @@ get_header(); ?>
     </ul>
 </div>
 
-<div class="row white minus-top front-of-house">
+<div class="row trans-white minus-top front-of-house">
     <div class="large-12 columns">
         <div class="row front-of-house">
             <div class="large-4 medium-4 columns">
                 <div class="link-box">
                     <div class="link-box-title">
-                        <h3>Who we are</h3>
+                        <h4>Who we are</h4>
+                    </div>
+                    <div class="link-box link-box-pic-1">
+                        
                     </div>
                 </div>
             </div>
             <div class="large-4 medium-4 columns">
                 <div class="link-box">
                     <div class="link-box-title">
-                        <h3>Our team</h3>
+                        <h4>Our team</h4>
+                    </div>
+                    <div class="link-box link-box-pic-2">
+                        
                     </div>
                 </div>
             </div>
             <div class="large-4 medium-4 columns">
                 <div class="link-box">
                     <div class="link-box-title">
-                        <h3>Our philosophy</h3>
+                        <h4>Our philosophy</h4>
+                    </div>
+                    <div class="link-box link-box-pic-3">
+                        
                     </div>
                 </div>
             </div>
@@ -86,8 +95,8 @@ get_header(); ?>
 </div>
 
 <div class="gray-bg">
-    <div class="row">
-        <div class="large-12 columns spacing info-box">
+    <div class="row space-top">
+        <div class="large-12 columns inner-spacing info-box">
             <h2 class="text-center">TRAIN HARD, TRAIN FUN</h2>
             <hr class="info-hr">
             <p>Whether you're a beginner or a seasoned athlete, our sessions are designed to be effective and fun at the same time. Regardless of whether you've ever set foot in a gym before or not, we have developed programs and sessions to suit all types of different customers.﻿</p> 
@@ -97,9 +106,13 @@ get_header(); ?>
     </div>
 </div>
 
+<div class="red-bg text-center divider-spacing">
+    <h5 class="text-white">MUSCLE HUSTLE - WHERE WE TRAIN HARD WHILST HAVING FUN</h5>
+</div>
+
 
 <div class="row">
-    <div class="large-4 columns">
+    <div class="large-4 columns outer-spacing">
         <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F351523308284604&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:600px; height:430px; background: white; float:left; " allowtransparency="true">
         </iframe>        
     </div>

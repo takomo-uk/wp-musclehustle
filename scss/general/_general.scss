@@ -6,12 +6,36 @@
     background: $white;
 }
 
-.minus-top {
-    margin-top: -30px;
+.text-white {
+    color: $white;
 }
 
-.spacing {
+.trans-white {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.minus-top {
+    margin-top: -40px;
+}
+
+.outer-spacing {
     margin: 20px 0;
+}
+
+.inner-spacing {
+    padding: 20px 0;
+}
+
+.space-top {
+    margin-top: 20px;
+}
+
+.space-bot {
+    margin-bottom: 20px;
+}
+
+.divider-spacing {
+    padding: 50px 0;
 }
 
 .front-of-house {
@@ -32,20 +56,47 @@
     a {
         font-weight: bold;
     }
-}
-
-.info-hr {
-    margin: -8px auto 25px auto;
-    border: 0px solid black;
-    height: 3px;
-    width: 25%;
-    text-align: center;
-    background: $primary-color;
+    .info-hr {
+        margin: -8px auto 25px auto;
+        width: 25%;
+        height: 3px;      
+        background: $primary-color;
+        text-align: center; 
+        border: 0px solid black; 
+    }
 }
 
 .gray-bg {
-    margin: 20px 0;
     background: #e2e0e0;
+}
+
+.red-bg {
+    // background-image: -webkit-gradient(
+    //     linear,
+    //     left top,
+    //     left bottom,
+    //     color-stop(0, #EB6363),
+    //     color-stop(0.89, #D52D2D)
+    // );
+    // background-image: -o-linear-gradient(bottom, #EB6363 0%, #D52D2D 89%);
+    // background-image: -moz-linear-gradient(bottom, #EB6363 0%, #D52D2D 89%);
+    // background-image: -webkit-linear-gradient(bottom, #EB6363 0%, #D52D2D 89%);
+    // background-image: -ms-linear-gradient(bottom, #EB6363 0%, #D52D2D 89%);
+    // background-image: linear-gradient(to bottom, #EB6363 0%, #D52D2D 89%);
+
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #D97171),
+    color-stop(0.5, #D52D2D),
+    color-stop(1, #D97171)
+);
+background-image: -o-linear-gradient(bottom, #D97171 0%, #D52D2D 50%, #D97171 100%);
+background-image: -moz-linear-gradient(bottom, #D97171 0%, #D52D2D 50%, #D97171 100%);
+background-image: -webkit-linear-gradient(bottom, #D97171 0%, #D52D2D 50%, #D97171 100%);
+background-image: -ms-linear-gradient(bottom, #D97171 0%, #D52D2D 50%, #D97171 100%);
+background-image: linear-gradient(to bottom, #D97171 0%, #D52D2D 50%, #D97171 100%);
 }
 
 
