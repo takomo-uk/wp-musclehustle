@@ -10,6 +10,46 @@
     margin-top: -30px;
 }
 
+.spacing {
+    margin: 20px 0;
+}
+
+.front-of-house {
+    z-index: 99;
+}
+
+.back-of-house {
+    z-index: -99;
+}
+
+.info-box {
+    h1, h2, h3, h4, h5, h6 {
+        color: $primary-color;
+    }
+    p {
+        line-height: 2;
+    }
+    a {
+        font-weight: bold;
+    }
+}
+
+.info-hr {
+    margin: -8px auto 25px auto;
+    border: 0px solid black;
+    height: 3px;
+    width: 25%;
+    text-align: center;
+    background: $primary-color;
+}
+
+.gray-bg {
+    margin: 20px 0;
+    background: #e2e0e0;
+}
+
+
+// you dont need this, foundation already has 'text-center' class.
 .center {
     text-align: center;
 }
