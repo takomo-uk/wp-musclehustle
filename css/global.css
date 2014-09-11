@@ -3594,8 +3594,8 @@ kbd {
 .orbit-container img {
   min-width: 100%; }
 
-.orbit-prev, .orbit-next {
-  z-index: 99; }
+.orbit-timer {
+  opacity: 0; }
 
 ul.pagination {
   display: block;
@@ -6135,30 +6135,63 @@ th.hide-for-touch {
 
 .link-box {
   margin-top: 17px;
-  height: 250px;
-  background: tomato; }
+  height: 300px;
+  background: white;
+  overflow: hidden;
+  outline: 20px solid transparent; }
+  .link-box:hover {
+    outline: 5px solid #c12727;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+    -o-transition: ease-out 0.5s;
+    transition: ease-out 0.5s; }
+
+.img-box {
+  height: 100%; }
 
 .link-box-title {
   background: #c12727;
   text-align: center;
-  padding: 0 10px; }
-  .link-box-title h3 {
+  padding: 8px 10px; }
+  .link-box-title h5 {
     text-transform: uppercase;
     color: white; }
 
-.front-slider {
-  background: url("../assets/img/images/frontpage.png");
-  height: 400px;
-  width: 100%; }
+.link-box-pic-1 {
+  background: url(../assets/img/images/img-1.jpg) no-repeat center center/cover; }
+
+.link-box-pic-2 {
+  background: url(../assets/img/images/img-2.jpg) no-repeat center center/cover; }
+
+.link-box-pic-3 {
+  background: url(../assets/img/images/img-3.jpg) no-repeat center center/cover; }
 
 .white {
   background: white; }
 
-.minus-top {
-  margin-top: -30px; }
+.text-white {
+  color: white; }
 
-.spacing {
+.trans-white {
+  background: rgba(255, 255, 255, 0.4); }
+
+.minus-top {
+  margin-top: -40px; }
+
+.outer-spacing {
   margin: 20px 0; }
+
+.inner-spacing {
+  padding: 20px 0; }
+
+.space-top {
+  margin-top: 20px; }
+
+.space-bot {
+  margin-bottom: 20px; }
+
+.divider-spacing {
+  padding: 50px 0; }
 
 .front-of-house {
   z-index: 99; }
@@ -6172,18 +6205,20 @@ th.hide-for-touch {
   line-height: 2; }
 .info-box a {
   font-weight: bold; }
-
-.info-hr {
+.info-box .info-hr {
   margin: -8px auto 25px auto;
-  border: 0px solid black;
-  height: 3px;
   width: 25%;
+  height: 3px;
+  background: #c12727;
   text-align: center;
-  background: #c12727; }
+  border: 0px solid black; }
 
 .gray-bg {
   margin: 70px 0;
   background: #e2e0e0; }
+
+.red-bg {
+  background: #c12727; }
 
 .center {
   text-align: center; }

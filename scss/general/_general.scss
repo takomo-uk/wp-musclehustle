@@ -6,12 +6,36 @@
     background: $white;
 }
 
-.minus-top {
-    margin-top: -30px;
+.text-white {
+    color: $white;
 }
 
-.spacing {
+.trans-white {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.minus-top {
+    margin-top: -40px;
+}
+
+.outer-spacing {
     margin: 20px 0;
+}
+
+.inner-spacing {
+    padding: 20px 0;
+}
+
+.space-top {
+    margin-top: 20px;
+}
+
+.space-bot {
+    margin-bottom: 20px;
+}
+
+.divider-spacing {
+    padding: 50px 0;
 }
 
 .front-of-house {
@@ -32,20 +56,23 @@
     a {
         font-weight: bold;
     }
-}
-
-.info-hr {
-    margin: -8px auto 25px auto;
-    border: 0px solid black;
-    height: 3px;
-    width: 25%;
-    text-align: center;
-    background: $primary-color;
+    .info-hr {
+        margin: -8px auto 25px auto;
+        width: 25%;
+        height: 3px;      
+        background: $primary-color;
+        text-align: center; 
+        border: 0px solid black; 
+    }
 }
 
 .gray-bg {
     margin: 70px 0;
     background: #e2e0e0;
+}
+
+.red-bg {
+    background: $primary-color;
 }
 
 

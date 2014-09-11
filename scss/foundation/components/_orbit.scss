@@ -379,6 +379,6 @@ $orbit-timer-hide-for-small: true !default;
   min-width: 100%;
 }
 
-.orbit-prev, .orbit-next {
-  z-index: 99;
+.orbit-timer {
+  opacity: 0;
 }

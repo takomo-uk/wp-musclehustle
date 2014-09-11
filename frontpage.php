@@ -9,7 +9,7 @@ get_header(); ?>
     <ul class="example-orbit back-of-house" data-orbit 
                 data-options="
                 timer_speed: 5000;
-                timer: false;
+                timer: true;
                 pause_on_hover:false;
                 slide_number: false;
                 animation_speed:500;
@@ -36,29 +36,44 @@ get_header(); ?>
     </ul>
 </div>
 
-<div class="row white minus-top front-of-house">
+<div class="row trans-white minus-top front-of-house">
     <div class="large-12 columns">
         <div class="row front-of-house">
             <div class="large-4 medium-4 columns">
-                <div class="link-box">
-                    <div class="link-box-title">
-                        <h3>Who we are</h3>
+                <a href="#">
+                    <div class="link-box">
+                        <div class="link-box-title">
+                            <h5>Who we are</h5>
+                        </div>
+                        <div class="img-box link-box-pic-1">
+                            
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="large-4 medium-4 columns">
-                <div class="link-box">
-                    <div class="link-box-title">
-                        <h3>Our team</h3>
+                <a href="#">
+                    <div class="link-box">
+                        <div class="link-box-title">
+                            <h5>Our team</h5>
+                        </div>
+                        <div class="img-box link-box-pic-2">
+                            
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="large-4 medium-4 columns">
-                <div class="link-box">
-                    <div class="link-box-title">
-                        <h3>Our philosophy</h3>
+                <a href="#">
+                    <div class="link-box">
+                        <div class="link-box-title">
+                            <h5>Our philosophy</h5>
+                        </div>
+                        <div class="img-box link-box-pic-3">
+                            
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -82,14 +97,13 @@ get_header(); ?>
                         </footer>
                     </article>
                 <?php endwhile; // End the loop ?>
-
             </div>
         </div>
     </div>
 </div>
 
 <div class="row">
-    <div class="large-4 columns">
+    <div class="large-4 columns outer-spacing">
         <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F351523308284604&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:600px; height:430px; background: white; float:left; " allowtransparency="true">
         </iframe>        
     </div>
