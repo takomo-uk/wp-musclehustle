@@ -378,3 +378,7 @@ $orbit-timer-hide-for-small: true !default;
 .orbit-container img {
   min-width: 100%;
 }
+
+.orbit-timer {
+  opacity: 0;
+}

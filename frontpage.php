@@ -9,7 +9,7 @@ get_header(); ?>
     <ul class="example-orbit back-of-house" data-orbit 
                 data-options="
                 timer_speed: 5000;
-                timer: false;
+                timer: true;
                 pause_on_hover:false;
                 slide_number: false;
                 animation_speed:500;
@@ -40,34 +40,40 @@ get_header(); ?>
     <div class="large-12 columns">
         <div class="row front-of-house">
             <div class="large-4 medium-4 columns">
-                <div class="link-box">
-                    <div class="link-box-title">
-                        <h4>Who we are</h4>
+                <a href="#">
+                    <div class="link-box">
+                        <div class="link-box-title">
+                            <h5>Who we are</h5>
+                        </div>
+                        <div class="img-box link-box-pic-1">
+                            
+                        </div>
                     </div>
-                    <div class="link-box link-box-pic-1">
-                        
-                    </div>
-                </div>
+                </a>
             </div>
             <div class="large-4 medium-4 columns">
-                <div class="link-box">
-                    <div class="link-box-title">
-                        <h4>Our team</h4>
+                <a href="#">
+                    <div class="link-box">
+                        <div class="link-box-title">
+                            <h5>Our team</h5>
+                        </div>
+                        <div class="img-box link-box-pic-2">
+                            
+                        </div>
                     </div>
-                    <div class="link-box link-box-pic-2">
-                        
-                    </div>
-                </div>
+                </a>
             </div>
             <div class="large-4 medium-4 columns">
-                <div class="link-box">
-                    <div class="link-box-title">
-                        <h4>Our philosophy</h4>
+                <a href="#">
+                    <div class="link-box">
+                        <div class="link-box-title">
+                            <h5>Our philosophy</h5>
+                        </div>
+                        <div class="img-box link-box-pic-3">
+                            
+                        </div>
                     </div>
-                    <div class="link-box link-box-pic-3">
-                        
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -107,7 +113,11 @@ get_header(); ?>
 </div>
 
 <div class="red-bg text-center divider-spacing">
-    <h5 class="text-white">MUSCLE HUSTLE - WHERE WE TRAIN HARD WHILST HAVING FUN</h5>
+    <div class="row">
+        <div class="large-12 columns">
+            <h5 class="text-white">MUSCLE HUSTLE - WHERE WE TRAIN HARD WHILST HAVING FUN</h5>
+        </div>
+    </div>
 </div>
 
 
