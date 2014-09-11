@@ -4469,6 +4469,10 @@ kbd {
   min-width: 100%;
 }
 
+.orbit-prev, .orbit-next {
+  z-index: 99;
+}
+
 ul.pagination {
   display: block;
   min-height: 1.5rem;
@@ -7657,6 +7661,42 @@ th.hide-for-touch {
 
 .minus-top {
   margin-top: -30px;
+}
+
+.spacing {
+  margin: 20px 0;
+}
+
+.front-of-house {
+  z-index: 99;
+}
+
+.back-of-house {
+  z-index: -99;
+}
+
+.info-box h1, .info-box h2, .info-box h3, .info-box h4, .info-box h5, .info-box h6 {
+  color: #c12727;
+}
+.info-box p {
+  line-height: 2;
+}
+.info-box a {
+  font-weight: bold;
+}
+
+.info-hr {
+  margin: -8px auto 25px auto;
+  border: 0px solid black;
+  height: 3px;
+  width: 25%;
+  text-align: center;
+  background: #c12727;
+}
+
+.gray-bg {
+  margin: 20px 0;
+  background: #e2e0e0;
 }
 
 .center {
