@@ -9,6 +9,12 @@
     overflow: hidden;
 
     outline: 20px solid rgba(0,0,0,0);
+
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+    -o-transition: ease-out 0.5s;
+    transition: ease-out 0.5s;
+
     &:hover {
         outline: 5px solid $primary-color;
 
@@ -26,7 +32,7 @@
 .link-box-title {
     background: $primary-color;
     text-align: center;
-    padding: 8px 10px;
+    padding: 8px 10px 4px 10px;
 
     h5 {
         text-transform: uppercase;
