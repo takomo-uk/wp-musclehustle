@@ -103,9 +103,62 @@ get_header(); ?>
 </div>
 
 <div class="row">
-    <div class="large-4 columns outer-spacing">
-        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F351523308284604&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:600px; height:430px; background: white; float:left; " allowtransparency="true">
+    <div class="large-5 columns">
+        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F351523308284604&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:100%; height:430px; background: white; float:left; " allowtransparency="true">
         </iframe>        
+    </div>
+
+    <div class="large-7 columns text-center">
+
+    <h3 class="b-title">What people say</h3>
+
+        <div class="testimonials">
+            <ul data-orbit
+                data-options="
+                timer_speed: 5000;
+                timer: true;
+                pause_on_hover:false;
+                slide_number: false;
+                animation_speed:500;
+                navigation_arrows: false;
+                bullets: true;">
+
+
+
+                <li data-orbit-slide="testimonial-1">
+                    <div>
+                        <blockquote>
+                            Had lots of fun and recommend this to anyone great workout and will come back again
+                            <cite>Alesha, Muscle Hustle Bootcamp</cite>
+                        </blockquote>
+                    </div>
+                </li>
+                <li data-orbit-slide="testimonial-2">
+                    <div>
+                        <blockquote>
+                            Great instructor & motivator
+                            <cite>Rafia, Muscle Hustle Bootcamp</cite>
+                        </blockquote>
+                    </div>
+                </li>
+                <li data-orbit-slide="testimonial-3">
+                    <div>
+                        <blockquote>
+                            Fabrice is an excellent personal trainer, I recommend him without hesitation
+                            <cite>Greg Suart, 1-2-1 session</cite>
+                        </blockquote>
+                    </div>
+                </li>
+                <li data-orbit-slide="testimonial-4">
+                    <div>
+                        <blockquote>
+                            A friendly welcolme and great facilities
+                            <cite>Lee Butler, Muscle Hustle Corporate Fun Day</cite>
+                        </blockquote>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
 

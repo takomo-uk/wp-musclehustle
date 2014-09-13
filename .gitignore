@@ -12,7 +12,7 @@ Thumbs.db
 ################
 .floo
 *.codekit
-.sass-cache/
+scss/.sass-cache/
 
 # Packages #
 ############
