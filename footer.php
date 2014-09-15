@@ -17,12 +17,27 @@
     <div class="row">
         <div class="large-12 columns">
 
-            <ul>
+            <ul class="footer-social">
                 <li>
-
+                    <a href="https://www.facebook.com/pages/Muscle-Hustle/251912698310936"><i class="fi-social-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/MuscleHustle2"><i class="fi-social-twitter"></i></a>
                 </li>
             </ul>
-            Muscle hustle &copy; 2014
+
+            <div class="footer-contact">
+
+                <address>
+                    Muscle hustle &copy; 2014
+                    <i class="fi-telephone"></i>
+                    +44 77 18168851
+                    <i class="fi-mail"></i>
+                    contact@muscle-hustle.co.uk
+
+                </address> 
+
+            </div>
         </div>
     </div>
 </div>

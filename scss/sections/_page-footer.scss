@@ -4,7 +4,58 @@
 
 .page-footer {
     margin: 100px 0 0 0;
-    padding: 20px;
-    color: $primary-color;
+    color: darken($white, 25%);
     background: #2b2b2b;
+    padding: 10px;
+}
+
+.footer-social {
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+
+        i {
+            color: $primary-color;
+            font-size: 50px;
+
+            &:hover {
+                color: #fff;
+                transition-duration: 1s;
+
+            }
+        }
+
+    }
+
+    @media #{$small-only} { 
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    @media #{$medium-only} { 
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+.footer-contact {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 12px 0;
+    font-size: rem-calc(18);
+
+
+    i {
+        color: $primary-color;
+        margin-left: 10px;
+    }
 }
