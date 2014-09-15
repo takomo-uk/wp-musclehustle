@@ -7396,6 +7396,42 @@ th.hide-for-touch {
 
 .page-footer {
   margin: 100px 0 0 0;
-  padding: 20px;
-  color: #c12727;
-  background: #2b2b2b; }
+  color: #bfbfbf;
+  background: #2b2b2b;
+  padding: 10px; }
+
+.footer-social {
+  float: left;
+  margin: 0;
+  padding: 0;
+  line-height: 0; }
+  .footer-social li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0; }
+    .footer-social li i {
+      color: #c12727;
+      font-size: 50px; }
+      .footer-social li i:hover {
+        color: #fff;
+        transition-duration: 1s; }
+  @media only screen and (max-width: 40em) {
+    .footer-social {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0; } }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .footer-social {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0; } }
+
+.footer-contact {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 12px 0;
+  font-size: 1.125rem; }
+  .footer-contact i {
+    color: #c12727;
+    margin-left: 10px; }
