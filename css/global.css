@@ -9306,10 +9306,27 @@ th.hide-for-touch {
 }
 
 .fb-title {
-  padding: 8px 0;
+  padding: 3px 0;
   width: 100%;
   color: white;
   background: #3b5999;
+}
+.fb-title i {
+  margin-top: -16px !important;
+  font-size: 55px;
+  margin-left: 7px;
+}
+.fb-title h3 {
+  margin-bottom: 4px;
+  color: white;
+}
+
+.fb-feed {
+  margin-top: -20px;
+}
+
+.fb {
+  overflow: hidden;
 }
 
 .white {

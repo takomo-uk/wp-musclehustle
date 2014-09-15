@@ -104,9 +104,12 @@ get_header(); ?>
 
 <div class="row">
     <div class="large-6 columns text-center">
-        <h3 class="fb-title">Latest from <b>Facebook</b></h3>
-        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F251912698310936&width=600&colorscheme=dark&show_faces=true&border_color&stream=true&header=true&height=430" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:100%; height:430px; background: rgba(0,0,0,0); float:left; " allowtransparency="true">
-        </iframe>        
+        <div class="fb-title">
+            <i class="fi-social-facebook left"></i>
+            <h3>Latest from <b>Facebook</b></h3>
+        </div>
+        <iframe class="fb-feed" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F251912698310936&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=false&height=410" scrolling="yes" frameborder="0" style="border: 0px solid #3b5999; overflow:hidden; width:100%; height:430px; background: rgba(0,0,0,0); float:left; " allowtransparency="true">
+        </iframe>
     </div>
 
     <div class="large-6 columns text-center">
