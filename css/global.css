@@ -6170,6 +6170,9 @@ th.hide-for-touch {
 .link-box-pic-3 {
   background: url(../assets/img/images/img-3.jpg) no-repeat center center/cover; }
 
+.testimonials blockquote {
+  border: none; }
+
 .white {
   background: white; }
 
@@ -6238,5 +6241,8 @@ th.hide-for-touch {
     width: 50%;
     height: 8px; }
 
-.testimonials blockquote {
-  border: none; }
+.page-footer {
+  margin: 100px 0 0 0;
+  padding: 20px;
+  color: #c12727;
+  background: #2b2b2b; }

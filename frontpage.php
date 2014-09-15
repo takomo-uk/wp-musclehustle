@@ -110,20 +110,19 @@ get_header(); ?>
 
     <div class="large-7 columns text-center">
 
-    <h3 class="b-title">What people say</h3>
+        <!-- Testimonials -->
+        <h3 class="b-title">What people say</h3>
 
         <div class="testimonials">
             <ul data-orbit
                 data-options="
                 timer_speed: 5000;
                 timer: true;
-                pause_on_hover:false;
+                pause_on_hover: false;
                 slide_number: false;
-                animation_speed:500;
+                animation_speed: 500;
                 navigation_arrows: false;
                 bullets: true;">
-
-
 
                 <li data-orbit-slide="testimonial-1">
                     <div>
@@ -158,9 +157,8 @@ get_header(); ?>
                     </div>
                 </li>
             </ul>
-        </div>
+        </div><!-- // Testimonials -->
     </div>
 </div>
-
 
 <?php get_footer(); ?>
