@@ -19,10 +19,13 @@
 
             <ul class="footer-social">
                 <li>
-                    <a href="https://www.facebook.com/pages/Muscle-Hustle/251912698310936"><i class="fi-social-facebook"></i></a>
+                    <a href="https://www.facebook.com/pages/Muscle-Hustle/251912698310936" target="_blank"><i class="fi-social-facebook"></i></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/MuscleHustle2"><i class="fi-social-twitter"></i></a>
+                    <a href="https://twitter.com/MuscleHustle2" target="_blank"><i class="fi-social-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="http://instagram.com/musclehustleuk" target="_blank"><i class="fi-social-instagram"></i></a>
                 </li>
             </ul>
 

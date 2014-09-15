@@ -3,10 +3,10 @@
 //
 
 .page-footer {
-    margin: 100px 0 0 0;
+    margin: 50px 0 0 0;
     color: darken($white, 25%);
     background: #2b2b2b;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .footer-social {
@@ -19,7 +19,7 @@
         list-style-type: none;
         display: inline-block;
         padding: 0;
-        margin: 0;
+        margin: 0 5px;
 
         i {
             color: $primary-color;
