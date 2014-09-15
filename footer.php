@@ -22,7 +22,7 @@
 
                 </li>
             </ul>
-            Muscle hustle &copy; 2014
+            <i class="fi-social-facebook"></i> Muscle hustle &copy; 2014
         </div>
     </div>
 </div>
