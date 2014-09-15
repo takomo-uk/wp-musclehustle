@@ -36,9 +36,9 @@ get_header(); ?>
     </ul>
 </div>
 
-<div class="row trans-white minus-top front-of-house">
+<div class="row trans-white minus-top">
     <div class="large-12 columns">
-        <div class="row front-of-house">
+        <div class="row">
             <div class="large-4 medium-4 columns">
                 <a href="#">
                     <div class="link-box">
@@ -82,7 +82,7 @@ get_header(); ?>
 <div class="gray-bg">
     <div class="row">
         <div class="large-12 columns">
-            <div class="center">
+            <div class="info-box inner-spacing text-center">
 
                 <?php /* Start loop */ ?>
                 <?php while (have_posts()) : the_post(); ?>
@@ -103,12 +103,13 @@ get_header(); ?>
 </div>
 
 <div class="row">
-    <div class="large-5 columns">
-        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F351523308284604&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:100%; height:430px; background: white; float:left; " allowtransparency="true">
+    <div class="large-6 columns text-center">
+        <h3 class="fb-title">Latest from <b>Facebook</b></h3>
+        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F251912698310936&width=600&colorscheme=dark&show_faces=true&border_color&stream=true&header=true&height=430" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:100%; height:430px; background: rgba(0,0,0,0); float:left; " allowtransparency="true">
         </iframe>        
     </div>
 
-    <div class="large-7 columns text-center">
+    <div class="large-6 columns text-center">
 
         <!-- Testimonials -->
         <h3 class="b-title">What people say</h3>

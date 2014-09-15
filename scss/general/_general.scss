@@ -49,6 +49,7 @@
 .info-box {
     h1, h2, h3, h4, h5, h6 {
         color: $primary-color;
+        text-align: center;
     }
     p {
         line-height: 2;
@@ -67,7 +68,7 @@
 }
 
 .gray-bg {
-    margin: 70px 0;
+    margin: 50px 0;
     background: #e2e0e0;
 }
 
@@ -76,23 +77,22 @@
 }
 
 
-// you dont need this, foundation already has 'text-center' class.
-.center {
-    text-align: center;
-}
-
 // Typography
 
 .b-title {
     display: inline-block;
-    margin: 50px 0;
+    margin: 10px 0 30px 0;
+    color: $primary-color;
+    text-transform: uppercase;
 
     &:after {
         content: '';
         display: block;
         margin: 0 auto;
-        border-bottom: 8px solid $primary-color;
+        border-bottom: 3px solid $primary-color;
         width: 50%;
         height: 8px;
+
+
     }
 }
