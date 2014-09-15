@@ -103,12 +103,12 @@ get_header(); ?>
 </div>
 
 <div class="row">
-    <div class="large-6 columns text-center">
+    <div class="large-6 columns text-center fb">
         <div class="fb-title">
             <i class="fi-social-facebook left"></i>
             <h3>Latest from <b>Facebook</b></h3>
         </div>
-        <iframe class="fb-feed" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F251912698310936&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=false&height=410" scrolling="yes" frameborder="0" style="border: 0px solid #3b5999; overflow:hidden; width:100%; height:430px; background: rgba(0,0,0,0); float:left; " allowtransparency="true">
+        <iframe class="fb-feed" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F251912698310936&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=false&height=400" scrolling="yes" frameborder="0" style="border: 1px solid #3b5999; overflow:hidden; width:100%; height:372px; background: rgba(0,0,0,0); float:left; " allowtransparency="true">
         </iframe>
     </div>
 

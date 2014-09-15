@@ -29,7 +29,7 @@
             <div class="footer-contact">
 
                 <address>
-                    Muscle hustle &copy; 2014
+                    Muscle Hustle &copy; 2014
                     <i class="fi-telephone"></i>
                     +44 77 18168851
                     <i class="fi-mail"></i>
