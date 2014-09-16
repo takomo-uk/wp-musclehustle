@@ -49,21 +49,12 @@
 .info-box {
     h1, h2, h3, h4, h5, h6 {
         color: $primary-color;
-        text-align: center;
     }
     p {
         line-height: 2;
     }
     a {
         font-weight: bold;
-    }
-    .info-hr {
-        margin: -8px auto 25px auto;
-        width: 25%;
-        height: 3px;      
-        background: $primary-color;
-        text-align: center; 
-        border: 0px solid black; 
     }
 }
 
@@ -74,6 +65,11 @@
 
 .red-bg {
     background: $primary-color;
+}
+
+.img-border {
+    border-radius: 200px;
+    margin: 5px;
 }
 
 
@@ -92,7 +88,15 @@
         border-bottom: 3px solid $primary-color;
         width: 50%;
         height: 8px;
-
-
     }
+}
+
+.m-title {
+    color: $primary-color;
+    text-transform: uppercase;
+}
+
+.quote {
+    font-size: 90%;
+    color: lighten($black, 40%);
 }

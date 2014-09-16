@@ -1452,6 +1452,99 @@ body {
   background: url(../assets/img/bg-pattern/bgpattern.jpg);
 }
 
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animation-delay {
+  animation-delay: 0.5s;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounceInRight {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes bounceInRight {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.bounceInRight {
+  -webkit-animation-name: bounceInRight;
+  animation-name: bounceInRight;
+}
+
+body {
+  background: url(../assets/img/bg-pattern/bgpattern.jpg);
+}
+
 [class*="block-grid-"] {
   display: block;
   padding: 0;
@@ -9290,15 +9383,15 @@ th.hide-for-touch {
 }
 
 .link-box-pic-1 {
-  background: url(../assets/img/images/img-1.jpg) no-repeat center center/cover;
+  background: url(../assets/img/images/muscle-hustle-personal-trainer-fitness-fabrice-kabenge-1.jpg) no-repeat center center/cover;
 }
 
 .link-box-pic-2 {
-  background: url(../assets/img/images/img-2.jpg) no-repeat center center/cover;
+  background: url(../assets/img/images/muscle-hustle-personal-trainer-fitness-fabrice-kabenge-2.jpg) no-repeat center center/cover;
 }
 
 .link-box-pic-3 {
-  background: url(../assets/img/images/img-3.jpg) no-repeat center center/cover;
+  background: url(../assets/img/images/muscle-hustle-personal-trainer-fitness-fabrice-kabenge-3.jpg) no-repeat center center/cover;
 }
 
 .testimonials blockquote {
@@ -9375,21 +9468,12 @@ th.hide-for-touch {
 
 .info-box h1, .info-box h2, .info-box h3, .info-box h4, .info-box h5, .info-box h6 {
   color: #c12727;
-  text-align: center;
 }
 .info-box p {
   line-height: 2;
 }
 .info-box a {
   font-weight: bold;
-}
-.info-box .info-hr {
-  margin: -8px auto 25px auto;
-  width: 25%;
-  height: 3px;
-  background: #c12727;
-  text-align: center;
-  border: 0px solid black;
 }
 
 .gray-bg {
@@ -9399,6 +9483,11 @@ th.hide-for-touch {
 
 .red-bg {
   background: #c12727;
+}
+
+.img-border {
+  border-radius: 200px;
+  margin: 5px;
 }
 
 .b-title {
@@ -9414,6 +9503,16 @@ th.hide-for-touch {
   border-bottom: 3px solid #c12727;
   width: 50%;
   height: 8px;
+}
+
+.m-title {
+  color: #c12727;
+  text-transform: uppercase;
+}
+
+.quote {
+  font-size: 90%;
+  color: #666666;
 }
 
 .page-footer {
