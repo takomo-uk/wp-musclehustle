@@ -9487,6 +9487,9 @@ th.hide-for-touch {
 
 .img-border {
   border-radius: 200px;
+}
+
+.img-spacing {
   margin: 5px;
 }
 
