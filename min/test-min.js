@@ -1,0 +1,1 @@
+var stickyFooter=function(o){alert("hello nigga")};
