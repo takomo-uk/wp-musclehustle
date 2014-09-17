@@ -7604,7 +7604,11 @@ th.hide-for-touch {
 
 .img-border {
   border-radius: 200px;
-  margin: 5px; }
+}
+
+.img-spacing {
+  margin: 5px;
+}
 
 .b-title {
   display: inline-block;

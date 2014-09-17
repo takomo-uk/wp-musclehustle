@@ -26,7 +26,7 @@ get_header(); ?>
                     <h2 class="m-title">Who we are</h2>
                     <br>
 
-                    <p><img class="right img-border" src="<?php echo get_template_directory_uri(); ?>/assets/img/images/muscle-hustle-personal-trainer-fitness-1.png" alt="muscle hustle fitness">The trainers at Muscle Hustle are certified fitness professionals, as well as being genuinely friendly and helpful. We are dedicated to assist you in all aspects of your chosen training programme. Our personal, friendly approach always ensures you'll receive the attention, enjoy sessions, have fun and keep coming back for more.</p>
+                    <p><img class="right img-border img-spacing" src="<?php echo get_template_directory_uri(); ?>/assets/img/images/muscle-hustle-personal-trainer-fitness-1.png" alt="muscle hustle fitness">The trainers at Muscle Hustle are certified fitness professionals, as well as being genuinely friendly and helpful. We are dedicated to assist you in all aspects of your chosen training programme. Our personal, friendly approach always ensures you'll receive the attention, enjoy sessions, have fun and keep coming back for more.</p>
                     
                     <p class="quote"><i>"Fabrice has mastered the art of combining informal chat with firm direction, gentle hard challenge and humour"  
                     <br>- Greg Suart 1-2-1 session</i></p>
@@ -55,8 +55,16 @@ get_header(); ?>
 
                     <p>Muscle Hustle has assembled a team of highly competent and friendly fitness professionals.</p>
                     
-                    <h4>Fabrice Kabenge <img class="right" src="<?php echo get_template_directory_uri(); ?>/assets/img/images/fabrice-kabenge-muscle-hustle-personal-trainer-fitness-1.jpg" alt"Fabrice Kabenge"></h4>
-                    <h5>Director & Head Trainer</h5>
+                    <div class="row">
+                        <div class="medium-2 columns">
+                            <img class="img-spacing" src="<?php echo get_template_directory_uri(); ?>/assets/img/images/fabrice-kabenge-muscle-hustle-personal-trainer-fitness-1.jpg" alt"Fabrice Kabenge">
+                        </div>
+                        <div class="medium-10 columns space-top">
+                            <h4>Fabrice Kabenge</h4>
+                            <h5>Director & Head Trainer</h5>
+                        </div>
+                    </div>
+
 
                     <p>An experienced and dynamic Sports coach and Fitness Instructor with over 7 years experience of Sports coaching gained from coaching roles in sports & fitness, professional services and the Youth & education sector. Utilises knowledge of traditional training principles and Interpersonal skills development to create a broad range of group/individual training sessions/plans.</p>
                 
@@ -72,9 +80,9 @@ get_header(); ?>
                     - Safeguarding and child protection Training</p>
                 </div>
 
-                    <p>He's Coaching as taken him on a journey where he has previously found himself Running Fitness sessions for NEET's, a Sports Fun session for News international staff, running a football coaching session  to young offenders on a football coaching course in Feltham young offenders institute with a positive message of change, Designing and running a sports Day for over a 100 Prince's Trust Senior Management Team Staff,amongst many other things.</p>
+                    <p>His Coaching has taken him on a journey where he has previously found himself running fitness sessions for NEET's, a sports fun session for news international staff, running a football coaching session  to young offenders on a football coaching course in Feltham young offenders institute with a positive message of change, designing and running a sports day for over a 100 Prince's Trust senior management team staff, amongst many other things.</p>
 
-                    <p>He Founded Muscle Hustle In 2013 and was competing as an Amateur Boxer.</p>
+                    <p>Fabrice founded Muscle Hustle In 2013 and was competing as an amateur boxer.</p>
                 </div>
             </div>
             <!-- End panel 3 -->
