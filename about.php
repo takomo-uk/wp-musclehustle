@@ -59,7 +59,7 @@ get_header(); ?>
                         <div class="medium-2 columns">
                             <img class="img-spacing" src="<?php echo get_template_directory_uri(); ?>/assets/img/images/fabrice-kabenge-muscle-hustle-personal-trainer-fitness-1.jpg" alt"Fabrice Kabenge">
                         </div>
-                        <div class="medium-10 columns space-top">
+                        <div class="medium-10 columns medium-space-top">
                             <h4>Fabrice Kabenge</h4>
                             <h5>Director & Head Trainer</h5>
                         </div>
@@ -68,17 +68,27 @@ get_header(); ?>
 
                     <p>An experienced and dynamic Sports coach and Fitness Instructor with over 7 years experience of Sports coaching gained from coaching roles in sports & fitness, professional services and the Youth & education sector. Utilises knowledge of traditional training principles and Interpersonal skills development to create a broad range of group/individual training sessions/plans.</p>
                 
-                <div class="quote">
-                    <p>- Ex Amateur Boxer for St Pancras Boxing Club situated in Kentish Town
-                    <br>- CYQ Gym Instructor Level 2
-                    <br>- Previously was a Sports Peer Facilitator & Assistant Team Leader for Prince's Trust
-                    <br>- BTEC Level 2 Award in Peer Education
-                    <br>- Community Sports Leadership Award Level 2
-                    <br>- LTA Assistant Tennis Coach Level 1(previously coached at Hackney City Tennis club)
-                    <br>- Football Association Coaching Certificate Level 1(previously coached for Leyton Orient Community Sports Programme)
-                    <br>- Completed NSPCC Child Protection Awareness programme
-                    - Safeguarding and child protection Training</p>
-                </div>
+                    <div class="panel">
+                        <ul class="qualif-list">
+                            <li><i class="fi-asterisk"></i>  Ex Amateur Boxer for St Pancras Boxing Club situated in Kentish Town</li>
+                            <hr>
+                            <li><i class="fi-asterisk"></i>  CYQ Gym Instructor Level 2</li>
+                            <hr>
+                            <li><i class="fi-asterisk"></i>  Previously was a Sports Peer Facilitator & Assistant Team Leader for Prince's Trust</li>
+                            <hr>
+                            <li><i class="fi-asterisk"></i>  BTEC Level 2 Award in Peer Education</li>
+                            <hr>
+                            <li><i class="fi-asterisk"></i>  Community Sports Leadership Award Level 2</li>
+                            <hr>
+                            <li><i class="fi-asterisk"></i>  LTA Assistant Tennis Coach Level 1(previously coached at Hackney City Tennis club)</li>
+                            <hr>
+                            <li><i class="fi-asterisk"></i>  Football Association Coaching Certificate Level 1(previously coached for Leyton Orient Community Sports Programme)</li>
+                            <hr>
+                            <li><i class="fi-asterisk"></i>  Completed NSPCC Child Protection Awareness programme</li>
+                            <hr>
+                            <li><i class="fi-asterisk"></i>  Safeguarding and child protection Training</li>
+                        </ul>                    
+                    </div>
 
                     <p>His Coaching has taken him on a journey where he has previously found himself running fitness sessions for NEET's, a sports fun session for news international staff, running a football coaching session  to young offenders on a football coaching course in Feltham young offenders institute with a positive message of change, designing and running a sports day for over a 100 Prince's Trust senior management team staff, amongst many other things.</p>
 

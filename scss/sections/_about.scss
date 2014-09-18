@@ -1,0 +1,25 @@
+//
+// Styles for about page
+//
+
+.medium-space-top {
+    @media #{$medium-up} {
+        margin-top: 35px;
+    }
+}
+
+.quote {
+    font-size: 90%;
+    color: lighten($black, 40%);
+}
+
+.qualif-list {
+    i {
+        margin: 0 10px 0 -15px;
+        font-size: 14px;
+        color: darken($primary-color, 10%);
+    }
+    hr {
+        margin: 7px 0;
+    }
+}

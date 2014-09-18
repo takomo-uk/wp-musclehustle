@@ -64,13 +64,18 @@
     color: $white;
     background: #3b5999;
     i {
-        margin-top: -16px !important;
+        margin: -16px -16px 0 7px;
         font-size: 55px;
-        margin-left: 7px;
+        @media #{$small-only} {
+            font-size: 45px;
+        }
     }
     h3 {
         margin-bottom: 4px;
         color: $white;
+        @media #{$small-only} {
+            font-size: 18px;
+        }
     }
 }
 
