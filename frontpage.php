@@ -133,6 +133,22 @@ get_header(); ?>
                 <li data-orbit-slide="testimonial-1">
                     <div>
                         <blockquote>
+                            Brilliant corporate day. Team had fun and encouraged eachother. Great for morale
+                            <cite>Cormac O'Brien, Muscle Hustle Corporate Fun Day</cite>
+                        </blockquote>
+                    </div>
+                </li>
+                <li data-orbit-slide="testimonial-1">
+                    <div>
+                        <blockquote>
+                            Fabrice has mastered the art of combining informal chat with firm direction, gentle hard challenge and humour
+                            <cite>Greg Suart 1-2-1 session</cite>
+                        </blockquote>
+                    </div>
+                </li>
+                <li data-orbit-slide="testimonial-1">
+                    <div>
+                        <blockquote>
                             Had lots of fun and recommend this to anyone great workout and will come back again
                             <cite>Alesha, Muscle Hustle Bootcamp</cite>
                         </blockquote>
