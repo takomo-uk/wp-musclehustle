@@ -7597,18 +7597,17 @@ th.hide-for-touch {
 
 .gray-bg {
   margin: 50px 0;
-  background: #e2e0e0; }
+  background: #e2e0e0;
+  opacity: 0.9; }
 
 .red-bg {
   background: #c12727; }
 
 .img-border {
-  border-radius: 200px;
-}
+  border-radius: 200px; }
 
 .img-spacing {
-  margin: 5px;
-}
+  margin: 5px; }
 
 .b-title {
   display: inline-block;
@@ -7672,3 +7671,22 @@ th.hide-for-touch {
   .footer-contact i {
     color: #c12727;
     margin-left: 10px; }
+
+.latest-news {
+  padding: 15px; }
+
+.post {
+  margin-bottom: 20px; }
+
+.post-meta {
+  display: block;
+  background: #c12727;
+  font-size: 1.125rem;
+  color: white;
+  padding: 10px; }
+  @media only screen and (max-width: 40em) {
+    .post-meta {
+      background: none;
+      color: #333333;
+      padding: 0;
+      font-size: 80%; } }
