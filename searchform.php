@@ -3,7 +3,7 @@
 	<div class="row collapse">
 		<?php do_action('foundationPress_searchform_top'); ?>
 		<div class="small-8 columns">
-			<input type="text" value="" name="s" id="s" placeholder="<?php esc_attr_e('Search', 'FoundationPress'); ?>">
+			<input type="text" value="" name="s" id="s" placeholder="<?php esc_attr_e('Search Muscle Hustle', 'FoundationPress'); ?>">
 		</div>
 		<?php do_action('foundationPress_searchform_before_search_button'); ?>
 		<div class="small-4 columns">
