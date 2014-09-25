@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 <div class="row">
-	<div class="small-12 large-8 columns" role="main">
+	<div class="large-12 columns" role="main">
 
 		<?php do_action('foundationPress_before_content'); ?>
 
-		<h2><?php _e('Search Results for', 'FoundationPress'); ?> "<?php echo get_search_query(); ?>"</h2>
+		<h3><?php _e('Search Results for', 'FoundationPress'); ?> "<?php echo get_search_query(); ?>"</h3>
 
 	<?php if ( have_posts() ) : ?>
 
@@ -30,6 +30,5 @@
 	<?php do_action('foundationPress_after_content'); ?>
 
 	</div>
-	<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

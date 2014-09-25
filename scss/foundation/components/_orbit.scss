@@ -122,6 +122,7 @@ $orbit-timer-hide-for-small: true !default;
       width: 100%;
       position: relative;
       background: $orbit-container-bg;
+      margin-top: -50px;
 
       // Custom styling to slider
       max-height: 600px;

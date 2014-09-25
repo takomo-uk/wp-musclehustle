@@ -11,17 +11,14 @@
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-		<div class="large-1 medium-2 columns">
-			<div class="post-meta">
-				<span class='post-day'><?php the_time('d');?></span>
-  				<span class='post-month'><?php the_time('M'); ?></span>
-			</div>
-		</div>
+		<div class="large-12 columns">
 
-		<div class="large-11 medium-10 columns space-bot">
 
-				<header class="post-title">
-					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+				<header class="post-header">
+					<h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+					<div class="post-meta">
+						<?php FoundationPress_entry_meta(); ?>
+					</div>
 				</header>
 
 				<div class="post-content">
