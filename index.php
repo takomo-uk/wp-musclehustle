@@ -1,9 +1,22 @@
 <?php get_header(); ?>
 <div class="row">
 
-	<div class="large-12 columns" role="main">
+	<div class="large-9 columns" role="main">
 
-		<div class="latest-news space-top">
+		<div>
+
+
+
+			<?php 
+			/**
+			 *	Change category number to news category ID
+			 *  to ignore posts in news category
+			 */
+			if ( is_home() ) {
+				query_posts($query_string . '&cat=-3');
+			}
+			?>
+
 
 
 			<?php if ( have_posts() ) : ?>
@@ -30,6 +43,10 @@
 
 		<?php do_action('foundationPress_after_content'); ?>
 		</div>
+	</div>
+
+	<div class="large-3 columns">
+		<?php get_sidebar(); ?>
 	</div>
 </div>
 <?php get_footer(); ?>

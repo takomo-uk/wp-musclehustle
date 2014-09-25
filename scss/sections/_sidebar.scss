@@ -1,0 +1,16 @@
+//
+// Sidebar
+//
+
+#sidebar {
+    margin: 30px 0;
+
+    a {
+        color: $black;
+    }
+}
+
+.sidebar-title {
+    color: $primary-color;
+    text-transform: uppercase;
+}
