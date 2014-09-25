@@ -2,3 +2,55 @@
 // Styles for classes page
 //
 
+.class-box {
+    height: 300px;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.center-align {
+    height: 100%;
+    background: rgba(12,12,12,0.6);
+}
+
+.class-text {
+    margin: 0 5px;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    h3 {
+        font-size: 30px;
+        color: $primary-color;
+        text-transform: uppercase;
+        line-height: 1.6;
+    }
+}
+
+.class-image-1 {    
+    background: url(../assets/img/images/muscle-hustle-personal-trainer-fitness-1.png) no-repeat center center / cover;
+}
+
+.class-image-2 {    
+    background: url(../assets/img/images/muscle-hustle-personal-trainer-fitness-2.png) no-repeat center center / cover;
+}
+
+.class-image-3 {    
+    background: url(../assets/img/images/muscle-hustle-personal-trainer-fitness-fabrice-kabenge-1.jpg) no-repeat center center / cover;
+}
+
+.class-image-4 {    
+    background: url(../assets/img/images/muscle-hustle-personal-trainer-fitness-fabrice-kabenge-2.jpg) no-repeat center center / cover;
+}
+
+.class-image-5 {    
+    background: url(../assets/img/images/muscle-hustle-personal-trainer-fitness-fabrice-kabenge-3.jpg) no-repeat center center / cover;
+}
+
+
+.drop-text {
+    p, h1, h2, h3, h4, h5 {
+        color: $white;
+    }
+}

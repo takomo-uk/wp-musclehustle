@@ -10,7 +10,7 @@
 $include-html-dropdown-classes: $include-html-classes !default;
 
 // We use these to controls height and width styles.
-$f-dropdown-max-width: 200px !default;
+$f-dropdown-max-width: 90% !default;
 $f-dropdown-height: auto !default;
 $f-dropdown-max-height: none !default;
 
@@ -27,21 +27,21 @@ $f-dropdown-margin-right: $f-dropdown-margin-top !default;
 $f-dropdown-margin-bottom: $f-dropdown-margin-top !default;
 
 // We use this to control the background color
-$f-dropdown-bg: $white !default;
+$f-dropdown-bg: darken($primary-color, 5%) !default;
 
 // We use this to set the border styles for dropdowns.
 $f-dropdown-border-style: solid !default;
 $f-dropdown-border-width: 1px !default;
-$f-dropdown-border-color: scale-color($white, $lightness: -20%) !default;
+$f-dropdown-border-color: $white !default;
 
 // We use these to style the triangle pip.
 $f-dropdown-triangle-size: 6px !default;
-$f-dropdown-triangle-color: $white !default;
+$f-dropdown-triangle-color: darken($primary-color, 5%) !default;
 $f-dropdown-triangle-side-offset: 10px !default;
 
 // We use these to control styles for the list elements.
 $f-dropdown-list-style: none !default;
-$f-dropdown-font-color: $charcoal !default;
+$f-dropdown-font-color: $white !default;
 $f-dropdown-font-size: rem-calc(14) !default;
 $f-dropdown-list-padding: rem-calc(5, 10) !default;
 $f-dropdown-line-height: rem-calc(18) !default;
