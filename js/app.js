@@ -17,3 +17,9 @@ $('#start-jr').on('click', function() {
         });
     }
 });
+
+
+//
+// Classes page javascript 
+//
+
