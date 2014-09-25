@@ -10,7 +10,13 @@ get_header(); ?>
 
         <div>
 
-        <?php query_posts('cat=3'); ?>
+
+        <?php 
+        /**
+         * Show only posts from X category (news category ID)
+         */
+        query_posts('cat=3'); ?>
+
             <?php if ( have_posts() ) : ?>
 
                 <?php do_action('foundationPress_before_content'); ?>

@@ -12472,6 +12472,10 @@ th.hide-for-touch {
   text-transform: uppercase;
 }
 
+.testimonials {
+  margin-top: 50px;
+}
+
 @media only screen and (min-width: 40.063em) {
   .medium-space-top {
     margin-top: 35px;
