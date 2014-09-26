@@ -7,7 +7,7 @@ get_header(); ?>
 
 <div class="row">
 
-    <div class="large-2 columns outer-spacing animated bounceInRight">
+    <div class="large-2 columns animated bounceInRight">
         <div clas="left">
             <ul class="side-nav" data-tab>
                 <li><a href="#panel1">Who We Are</a></li>
@@ -22,7 +22,7 @@ get_header(); ?>
         <div class="tabs-content">
 
             <div class="content active" id="panel1">
-                <div class="info-box outer-spacing animated animation-delay bounceInRight">
+                <div class="info-box animated animation-delay bounceInRight">
                     <h2 class="m-title">Who we are</h2>
                     <br>
 
@@ -35,7 +35,7 @@ get_header(); ?>
             <!-- End panel 1 -->
 
             <div class="content" id="panel2">
-                <div class="info-box outer-spacing animated bounceInRight">
+                <div class="info-box animated bounceInRight">
                     <h2 class="m-title">Mind Over Matter</h2>
                     <br>
 
@@ -49,7 +49,7 @@ get_header(); ?>
             <!-- End panel 2 -->
 
             <div class="content" id="panel3">
-                <div class="info-box outer-spacing animated bounceInRight">
+                <div class="info-box animated bounceInRight">
                     <h2 class="m-title">Our Team</h2>
                     <br>
 
