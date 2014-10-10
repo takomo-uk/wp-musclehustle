@@ -2,6 +2,14 @@
 // General styles
 //
 
+@mixin item-transition($duration) {
+    -webkit-transition: ease-out $duration;
+    -moz-transition: ease-out $duration;
+    -o-transition: ease-out $duration;
+    transition: ease-out $duration;
+}
+
+
 .white {
     background: $white;
 }
@@ -14,18 +22,18 @@
     background: rgba(255, 255, 255, 0.4);
 }
 
-
-
 .minus-top {
     margin-top: -40px;
 }
 
 .outer-spacing {
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .inner-spacing {
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .space-top {
@@ -65,7 +73,7 @@
 }
 
 .red-bg {
-    background: $primary-color;
+    background: darken($primary-color, 5%);
 }
 
 .img-border {
@@ -104,5 +112,5 @@
 // random
 
 .testimonials {
-        margin-top: 50px;
+    margin-top: 50px;
 }

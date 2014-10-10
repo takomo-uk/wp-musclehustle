@@ -55,7 +55,7 @@ get_header(); ?>
                 <a href="#">
                     <div class="link-box">
                         <div class="link-box-title">
-                            <h5>Our team</h5>
+                            <h5>Classes</h5>
                         </div>
                         <div class="img-box link-box-pic-2">
                             
@@ -67,7 +67,7 @@ get_header(); ?>
                 <a href="#">
                     <div class="link-box">
                         <div class="link-box-title">
-                            <h5>Our philosophy</h5>
+                            <h5>Online Training</h5>
                         </div>
                         <div class="img-box link-box-pic-3">
                             

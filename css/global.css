@@ -1473,6 +1473,30 @@ Copyright (c) 2014 Daniel Eden
   animation-delay: 1s;
 }
 
+.animation-delay-1-5 {
+  animation-delay: 1.5s;
+}
+
+.animation-delay-2 {
+  animation-delay: 2s;
+}
+
+.animation-delay-1-2 {
+  animation-delay: 1.2s;
+}
+
+.animation-delay-1-4 {
+  animation-delay: 1.4s;
+}
+
+.animation-delay-1-6 {
+  animation-delay: 1.6s;
+}
+
+.animation-delay-1-8 {
+  animation-delay: 1.8s;
+}
+
 .animated.infinite {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
@@ -12401,11 +12425,13 @@ th.hide-for-touch {
 }
 
 .outer-spacing {
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .inner-spacing {
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .space-top {
@@ -12441,7 +12467,7 @@ th.hide-for-touch {
 }
 
 .red-bg {
-  background: #c12727;
+  background: #ac2323;
 }
 
 .img-border {
@@ -12559,30 +12585,176 @@ th.hide-for-touch {
   color: #c12727;
   text-transform: uppercase;
   line-height: 1.6;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .class-image-1 {
-  background: url(../assets/img/images/muscle-hustle-personal-trainer-fitness-1.png) no-repeat center center/cover;
+  background: url(../assets/img/images/muscle-hustle-programme.jpg) no-repeat center center/cover;
 }
 
 .class-image-2 {
-  background: url(../assets/img/images/muscle-hustle-personal-trainer-fitness-2.png) no-repeat center center/cover;
+  background: url(../assets/img/images/back-to-fitness-programme.jpg) no-repeat center center/cover;
 }
 
 .class-image-3 {
-  background: url(../assets/img/images/muscle-hustle-personal-trainer-fitness-fabrice-kabenge-1.jpg) no-repeat center center/cover;
+  background: url(../assets/img/images/couples-classes.jpg) no-repeat center center/cover;
 }
 
 .class-image-4 {
-  background: url(../assets/img/images/muscle-hustle-personal-trainer-fitness-fabrice-kabenge-2.jpg) no-repeat center center/cover;
+  background: url(../assets/img/images/singles-classes.jpg) no-repeat center center/cover;
 }
 
 .class-image-5 {
-  background: url(../assets/img/images/muscle-hustle-personal-trainer-fitness-fabrice-kabenge-3.jpg) no-repeat center center/cover;
+  background: url(../assets/img/images/company-group-fun-days.jpg) no-repeat center center/cover;
 }
 
 .drop-text p, .drop-text h1, .drop-text h2, .drop-text h3, .drop-text h4, .drop-text h5 {
   color: white;
+}
+
+.hover-info {
+  width: 350px !important;
+  padding: 20px !important;
+  background: #971e1e;
+  border: 2px solid white;
+  border-left: none;
+}
+.hover-info p {
+  font-size: 13px;
+}
+
+.text-front-1 {
+  z-index: 103;
+}
+
+.text-front-2 {
+  z-index: 102;
+}
+
+.text-front-3 {
+  z-index: 101;
+}
+
+.text-front-4 {
+  z-index: 104;
+}
+
+.text-front-5 {
+  z-index: 105;
+}
+
+.megaphone-icon {
+  font-size: 75px;
+  margin-right: 25px;
+}
+
+.online-hover:hover {
+  background: #c12727;
+  transition: 0.5s;
+}
+
+.online-class-box {
+  padding: 5px 0;
+  background: white;
+  border: 2px solid gray;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.online-class-box:hover {
+  border: 2px solid #c12727;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: black;
+  background: white;
+  -webkit-transition: ease-out 0.3s;
+  -moz-transition: ease-out 0.3s;
+  -o-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.online-class-box:hover h3 {
+  color: black;
+  -webkit-transition: ease-out 0.3s;
+  -moz-transition: ease-out 0.3s;
+  -o-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.online-class-box:hover .online-class-info {
+  padding-left: 20px;
+  -webkit-transition: ease-out 0.3s;
+  -moz-transition: ease-out 0.3s;
+  -o-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.online-class-box h3 {
+  color: #c12727;
+}
+
+.class-date {
+  padding: 0 2px;
+  background: #c12727;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 40.063em) {
+  .class-date {
+    margin-top: 10px;
+  }
+}
+.class-date h5 {
+  margin: 4px 1px;
+  color: #c12727;
+  background: white;
+  border-radius: 3px;
+}
+.class-date p {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: white;
+}
+
+.online-class-img {
+  margin-right: 15px;
+}
+.online-class-img img {
+  border-radius: 5px;
+}
+
+.contact-form {
+  line-height: 1;
+}
+.contact-form input, .contact-form textarea {
+  width: 100% !important;
+  margin: 10px 0 !important;
+  border: 1px solid #c12727 !important;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0);
+}
+@media only screen and (min-width: 64.063em) {
+  .contact-form input, .contact-form textarea {
+    width: 40% !important;
+  }
+}
+.contact-form textarea {
+  width: 100% !important;
+}
+@media only screen and (min-width: 64.063em) {
+  .contact-form textarea {
+    width: 60% !important;
+  }
+}
+.contact-form input[type=submit] {
+  width: 50% !important;
+  padding: 8px 0;
+  color: white;
+  background: #c12727 !important;
+  border-radius: 4px;
+}
+@media only screen and (min-width: 64.063em) {
+  .contact-form input[type=submit] {
+    width: 25% !important;
+  }
+}
+
+label {
+  display: none;
 }
 
 .link-box {
